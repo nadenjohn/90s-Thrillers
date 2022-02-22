@@ -1,11 +1,25 @@
 h1 {
     font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 50px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
 }  
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+#image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+    }  
+  #image2 {
+    position: absolute;
+    display: none;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #000000;
+  }
 
 .sidenav {
     height: 100%; 
